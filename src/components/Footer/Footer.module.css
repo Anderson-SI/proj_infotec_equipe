@@ -1,0 +1,59 @@
+.footer {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.centro {
+    border-top: 2px solid #A3E22B;
+    background-color: #0D1E30;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 8px;
+    text-align: center;
+}
+
+.centro h4 {
+    color: #A3E22B;
+}
+
+.centro p {
+    margin-top: 16px;
+}
+
+.centro ul {
+    list-style: none;
+    margin-top: 16px;
+}
+
+.final {
+    background-color: #000;
+    color: aliceblue;
+    padding: 8px;
+    text-align: center;
+}
+
+.final p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.socialmidia {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    transition: all 2s;
+}
+
+.footerlink {
+    color: beige;
+    border-radius: 50%;
+    font-size: 1.8rem;
+}
+
+.footerlink:hover {
+    opacity: 0.8;
+}

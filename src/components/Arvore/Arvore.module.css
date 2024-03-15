@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: local("Pacifico-Regular"), url(../../../public/fonts/Pacifico-Regular.ttf) format('truetype');
+}
+
+
+.arvore {
+    background-color:rgb(114, 193, 245);
+    margin: 0px;
+    padding: 10px;
+}
+
+.frase {
+    width: 30%;
+}
+
+.frase h5 {
+    margin: 0px;
+    justify-content: right;
+    text-align: right;
+}
+
+.frase p {
+    font-family: Pacifico-Regular;
+    margin: 2px;
+    font-size: 20px;
+    padding: 0px;
+    text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.5);
+}
+
+.arvore h2 {
+    margin: 0px;
+    font-family: Pacifico-Regular;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.5);
+}
+
+.areas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1.5rem;
+}
