@@ -5,36 +5,40 @@
 
 
 .arvore {
-    background-color:rgb(114, 193, 245);
+    background-color: #fff;
     margin: 0px;
-    padding: 10px;
+    padding: 3px;
+    width: 100%;
 }
 
 .frase {
-    width: 30%;
+    width: 45%;
 }
 
 .frase h5 {
-    margin: 0px;
+    margin-right: 40px;
     justify-content: right;
     text-align: right;
+    font-size: 10px;
 }
 
 .frase p {
     font-family: Pacifico-Regular;
     margin: 2px;
-    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 15px;
+    font-size: 14px;
     padding: 0px;
-    text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.5);
 }
 
 .arvore h2 {
     margin: 0px;
-    font-family: Pacifico-Regular;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
     width: 100%;
-    text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.5);
+    
 }
 
 .areas {
@@ -45,4 +49,39 @@
     justify-content: center;
     gap: 1.5rem;
     margin-block: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .arvore {
+        padding: 0px;
+    }
+    .frase {
+        width: 100%;
+    }
+    .frase p {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .arvore h2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .arvore {
+        padding: 0px;
+    }
+    .frase p {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .arvore h2 {
+        margin: 3px;
+        font-size: 12px;
+        text-shadow: 1px 1px 1px rgba(78, 74, 74, 0.5);
+    }
 }

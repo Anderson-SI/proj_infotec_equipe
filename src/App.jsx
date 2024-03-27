@@ -8,8 +8,8 @@ function App() {
   return (
     <section>
       <Header />
-      < Arvore />
-      <Footer/>
+      <Arvore />
+      <Footer />
     </section>
   )
 }

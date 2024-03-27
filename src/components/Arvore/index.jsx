@@ -1,13 +1,6 @@
-
 import Card from "../Card";
 import styles from "./Arvore.module.css";
-import Dados from "../../Dados/dados.json"
-
-const arrayAdm = Dados.filter((num) => num.cargo === "administrativo");
-const arrayApoio = Dados.filter((num) => num.cargo === "apoio");
-const arraySuporte = Dados.filter((num) => num.cargo === "suporte");
-const arrayInfra = Dados.filter((num) => num.cargo === "infraestrutura");
-const arrayTecnico = Dados.filter((num) => num.cargo === "tecnico");
+import Dados from "../../Dados/dados.json";
 
 function Arvore ( ) {
     return (
@@ -16,73 +9,71 @@ function Arvore ( ) {
                 <p>O talento vence jogos, mas só o trabalho em equipe ganha campeonatos!</p>
                 <h5>"Michael Jordan"</h5>
             </div>
+
             <div className={styles.areas}>
-                <h2>Atendimento, Comercial e Financeiro</h2>
-                {arrayAdm.map ((dados) => 
+                <h2>Infraestrutura - (Planejamento, Projeto e Implementação)</h2>
+                {   Dados
+                    .filter((num) => num.cargo === "infraestrutura")
+                    .map (({nome, foto, funcao, unidade, facebook, instagram, linkedin}) => 
                 <Card 
-                    nome={dados.nome} 
-                    foto={dados.foto} 
-                    cargo={dados.funcao} 
-                    unidade={dados.unidade} 
-                    face={dados.facebook} 
-                    ins={dados.instagram}
-                    lin={dados.linkedin}
-                /> )}
+                    nome={nome} 
+                    foto={foto} 
+                    cargo={funcao} 
+                    unidade={unidade} 
+                    face={facebook} 
+                    ins={instagram}
+                    lin={linkedin}
+                /> 
+                )}
             </div>
             <div className={styles.areas}>
-                <h2>Infraestrutura</h2>
-                {arrayInfra.map ((dados) => 
+                <h2>Noc - (Monitoramento da Rede, Ativação Lógica e Suporte ao Cliente)</h2>
+                {   Dados
+                    .filter((num) => num.cargo === "suporte")
+                    .map (({nome, foto, funcao, unidade, facebook, instagram, linkedin}) => 
                 <Card 
-                    nome={dados.nome} 
-                    foto={dados.foto} 
-                    cargo={dados.funcao} 
-                    unidade={dados.unidade} 
-                    face={dados.facebook} 
-                    ins={dados.instagram}
-                    lin={dados.linkedin}
-                /> )}
+                    nome={nome} 
+                    foto={foto} 
+                    cargo={funcao} 
+                    unidade={unidade} 
+                    face={facebook} 
+                    ins={instagram}
+                    lin={linkedin}
+                /> 
+                )}
+            </div>
+            <div className={styles.areas}>
+                <h2>Técnicos de Campo - (Ativação e Manutenção)</h2>
+                {   Dados
+                    .filter((num) => num.cargo === "tecnico")
+                    .map (({nome, foto, funcao, unidade, facebook, instagram, linkedin}) => 
+                <Card 
+                    nome={nome} 
+                    foto={foto} 
+                    cargo={funcao} 
+                    unidade={unidade} 
+                    face={facebook} 
+                    ins={instagram}
+                    lin={linkedin}
+                /> 
+                )}
 
             </div>
             <div className={styles.areas}>
-                <h2>Suporte Técnico Noc</h2>
-                {arraySuporte.map ((dados) => 
+                <h2>Almoxarifado - (Controle e distribuição de Material)</h2>
+                {   Dados
+                    .filter((num) => num.cargo === "almoxarifado")
+                    .map (({nome, foto, funcao, unidade, facebook, instagram, linkedin}) => 
                 <Card 
-                    nome={dados.nome} 
-                    foto={dados.foto} 
-                    cargo={dados.funcao} 
-                    unidade={dados.unidade} 
-                    face={dados.facebook} 
-                    ins={dados.instagram}
-                    lin={dados.linkedin}
-                /> )}
-
-            </div>
-            <div className={styles.areas}>
-                <h2>Técnicos</h2>
-                {arrayTecnico.map ((dados) => 
-                <Card 
-                    nome={dados.nome} 
-                    foto={dados.foto} 
-                    cargo={dados.funcao} 
-                    unidade={dados.unidade} 
-                    face={dados.facebook} 
-                    ins={dados.instagram}
-                    lin={dados.linkedin}
-                /> )}
-
-            </div>
-            <div className={styles.areas}>
-                <h2>Apoio</h2>
-                {arrayApoio.map ((dados) => 
-                <Card 
-                    nome={dados.nome} 
-                    foto={dados.foto} 
-                    cargo={dados.funcao} 
-                    unidade={dados.unidade} 
-                    face={dados.facebook} 
-                    ins={dados.instagram}
-                    lin={dados.linkedin}
-                /> )}
+                    nome={nome} 
+                    foto={foto} 
+                    cargo={funcao} 
+                    unidade={unidade} 
+                    face={facebook} 
+                    ins={instagram}
+                    lin={linkedin}
+                /> 
+                )}
 
             </div>
         </div>

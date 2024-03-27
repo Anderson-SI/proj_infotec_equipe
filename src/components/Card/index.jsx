@@ -4,13 +4,15 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
 
 
-
 function Card ({nome, foto, cargo, unidade, face, ins, lin }) {
     return (
         <section className={styles.card}>
             <div className={styles.perfil}>
+                <img 
+                    src={foto} 
+                    alt={nome}
+                    />
                 <h3>{nome}</h3>
-                <img src={foto} alt={nome}/>
                 <h4>{cargo}</h4>
                 <h4>{unidade}</h4>
             </div>

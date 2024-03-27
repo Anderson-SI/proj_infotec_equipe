@@ -1,28 +1,40 @@
-@font-face {
-    font-family: "Assistant";
-    src: local("Assistant"), url(../../../public/fonts/Assistant-VariableFont_wght.ttf) format('truetype');
-  }
 
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: local("Roboto-Regular"), url(../../../public/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+
+:root {
+    --color-neutral-0: #000;
+    --color-neutral-10: #A3E22B;
+    --color-neutral-20: #fff;
+    --color-neutral-30: #0D1E30;
+    --color-neutral-40: #fffcd8;
+    --color-neutral-50: #f0f0f0;
+}
 
 .card {
-    font-family: Assistant;
-    padding: 5px;
-    margin: 8px;
-    background-color: rgb(242, 255, 169);  
+    font-family: Roboto-Regular;
+    padding: 3px;
+    margin: 10px;
+    background-color: var(--color-neutral-50);  
     width: 150px;
-    height: 200px;
+    height: 210px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     text-align: center;
-    box-shadow: 6px 6px 4px #22222270;
+    box-shadow: 3px 3px 3px 3px #22222270;
     flex-direction: column;
 }
 
 .card:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: #A3E22B;
+    background-color: var(--color-neutral-40);
 }
 
 .card img {
@@ -33,12 +45,14 @@
     border-radius: 50%;
     border-style: solid;
     border-width: 2px;
-    border-color:  rgb(1, 102, 1);
+    border-color:  var(--color-neutral-20);
 }
 
 .card h3 {
+    padding: 5px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 .card h4 {
     margin: 0px;
@@ -62,5 +76,11 @@
 
 .footerlink:hover {
 
-    color:rgb(27, 117, 0);
+    color:rgb(28, 109, 4);
+}
+
+@media screen and (max-width: 426px) {
+    .card {
+        margin: 1px;
+    }
 }

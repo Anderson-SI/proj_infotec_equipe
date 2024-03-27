@@ -1,59 +1,96 @@
-.footer {
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+:root {
+    --color-neutral-0: #000;
+    --color-neutral-10: #A3E22B;
+    --color-neutral-20: #fff;
+    --color-neutral-30: #0D1E30;
+}
+
+* {
+    font-family: "Oranienbaum", sans-serif;
     margin: 0px;
     padding: 0px;
-    letter-spacing: 1px;
-    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 2px;
 }
 
 .centro {
-    border-top: 2px solid #A3E22B;
-    background-color: #0D1E30;
-    color: aliceblue;
+    border-top: 2px solid var(--color-neutral-10);
+    background-color: var(--color-neutral-30);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 8px;
-    text-align: center;
+    padding: 2rem 2rem;
 }
 
-.centro h4 {
-    color: #A3E22B;
+.lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.centro p {
-    margin-top: 16px;
+.footer {
+    width: 100%;
+    color: var(--color-neutral-10);
 }
 
-.centro ul {
+.footer li {
+    margin-top: 1rem;
     list-style: none;
-    margin-top: 16px;
-}
-
-.final {
-    background-color: #000;
-    color: aliceblue;
-    padding: 8px;
-    text-align: center;
-}
-
-.final p {
-    font-size: 12px;
-    padding: 5px;
+    color: var(--color-neutral-20);
 }
 
 .socialmidia {
     display: flex;
-    justify-content: center;
     gap: 1rem;
-    margin-top: 0.8rem;
-    transition: all 2s;
+    margin-top: 1rem;
 }
 
-.footerlink {
-    color: beige;
-    border-radius: 50%;
-    font-size: 1.8rem;
+.socialmidia a {
+    font-size: 1.5rem;
+    color: var(--color-neutral-20);
+    text-decoration: none;
+    flex-direction: row;
+    transition: all 0.4s;
 }
 
-.footerlink:hover {
+.socialmidia a:hover {
     opacity: 0.8;
+    color: var(--color-neutral-10);
+}
+
+.final {
+    background-color: var(--color-neutral-0);
+    color: var(--color-neutral-20);
+    flex-direction: column;
+    height: 60px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.final p {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .centro {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .final p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .centro {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
 }
