@@ -6,7 +6,7 @@ function Error () {
         <>
         <div className={styles.error}>
             <a 
-                href="/proj_info_equipe"
+                href="/proj_infotec_equipe"
                 id="home">
                 <span>Clique aqui para voltar para página principal!</span>
             </a>

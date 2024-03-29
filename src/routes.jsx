@@ -6,7 +6,7 @@ function AppRoutes () {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/proj_info_equipe" element={ < Home /> }></Route>
+                <Route path="/proj_infotec_equipe" element={ < Home /> }></Route>
                 <Route path="*" element={ < Error /> }></Route>
             </Routes>
         </BrowserRouter>
