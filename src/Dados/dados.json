@@ -1,4 +1,4 @@
-[
+[  
     {
         "nome": "Ramon",
         "funcao": "Gerente",
@@ -130,16 +130,6 @@
         "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
     },
     {
-        "nome": "Michele",
-        "funcao": "Apoio",
-        "cargo": "apoio",
-        "unidade": "Umbaúba-SE",
-        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.facebook.com/",
-        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
-    },
-    {
         "nome": "Sandra",
         "funcao": "Almoxarifado",
         "cargo": "almoxarifado",
@@ -260,6 +250,16 @@
         "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
     },
     {
+        "nome": "Michele",
+        "funcao": "Apoio",
+        "cargo": "apoio",
+        "unidade": "Umbaúba-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
         "nome": "Alexandre",
         "funcao": "Técnico",
         "cargo": "tecnico",
@@ -332,7 +332,7 @@
     {
         "nome": "Ralmir",
         "funcao": "Técnico-Infra",
-        "cargo": "infraestrutura",
+        "cargo": "tecnico",
         "unidade": "Umbaúba-SE",
         "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
         "instagram": "https://www.instagram.com/",
@@ -345,6 +345,106 @@
         "cargo": "tecnico",
         "unidade": "Umbaúba-SE",
         "foto": "https://i.postimg.cc/k6t4tXmD/wesley.png",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Patric",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Itabaianinha-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Roberto",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Arauá-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Téc. Nov.",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Umbaúba-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Vinícius",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Umbaúba-SE",
+        "foto": "https://i.postimg.cc/Ty1hfJNV/vinicius.png",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Marcelo",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Indiaroba-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Victor",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Umbaúba-SE",
+        "foto": "https://i.postimg.cc/WDyz3qxQ/vitor.png",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Ivânio",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Itabaianinha-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Paulo",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Umbaúba-SE",
+        "foto": "https://i.postimg.cc/ZWTCDSrD/paulo.png",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Jhonatan",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Umbaúba-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"
+    },
+    {
+        "nome": "Jonas",
+        "funcao": "Técnico",
+        "cargo": "tecnico",
+        "unidade": "Itabaininha-SE",
+        "foto": "https://img.freepik.com/fotos-gratis/paisagem-tropical-ensolarada_23-2150466878.jpg",
         "instagram": "https://www.instagram.com/",
         "facebook": "https://www.facebook.com/",
         "linkedin": "https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"

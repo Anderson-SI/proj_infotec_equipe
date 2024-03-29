@@ -11,6 +11,22 @@ function Arvore ( ) {
             </div>
 
             <div className={styles.areas}>
+                <h2>Atendimento - (Comercial e Financeiro)</h2>
+                {   Dados
+                    .filter((num) => num.cargo === "administrativo")
+                    .map (({nome, foto, funcao, unidade, facebook, instagram, linkedin}) => 
+                <Card 
+                    nome={nome} 
+                    foto={foto} 
+                    cargo={funcao} 
+                    unidade={unidade} 
+                    face={facebook} 
+                    ins={instagram}
+                    lin={linkedin}
+                /> 
+                )}
+            </div>
+            <div className={styles.areas}>
                 <h2>Infraestrutura - (Planejamento, Projeto e Implementação)</h2>
                 {   Dados
                     .filter((num) => num.cargo === "infraestrutura")
@@ -63,6 +79,23 @@ function Arvore ( ) {
                 <h2>Almoxarifado - (Controle e distribuição de Material)</h2>
                 {   Dados
                     .filter((num) => num.cargo === "almoxarifado")
+                    .map (({nome, foto, funcao, unidade, facebook, instagram, linkedin}) => 
+                <Card 
+                    nome={nome} 
+                    foto={foto} 
+                    cargo={funcao} 
+                    unidade={unidade} 
+                    face={facebook} 
+                    ins={instagram}
+                    lin={linkedin}
+                /> 
+                )}
+
+            </div>
+            <div className={styles.areas}>
+                <h2>Apoio</h2>
+                {   Dados
+                    .filter((num) => num.cargo === "apoio")
                     .map (({nome, foto, funcao, unidade, facebook, instagram, linkedin}) => 
                 <Card 
                     nome={nome} 

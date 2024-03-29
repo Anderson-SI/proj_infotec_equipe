@@ -1,16 +1,12 @@
-import Header from './components/Header'
-import Footer from './components/Footer';
-import Arvore from './components/Arvore';
-import Card from './components/Card';
-import Error from './components/Error';
+
+import AppRoutes from './routes';
 
 
 function App() {
   return (
-    <section>
-      <Header />
-      <Error />
-    </section>
+    <>
+      < AppRoutes/>
+    </>
   )
 }
 

@@ -50,7 +50,7 @@ function Footer(){
             </div>
             <div className={styles.final}>
                 <p>&copy; 2024 Infotec - Todos os direitos reservados.</p>
-                <p>&#8482; Software Developer - Anderson Costa </p>
+                <p>&#8482; Software Developer - Anderson Moreira </p>
             </div>
         </di>
     );

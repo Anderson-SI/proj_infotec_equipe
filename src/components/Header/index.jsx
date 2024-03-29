@@ -13,7 +13,7 @@ function Header(){
                 </div>
                 <div className={styles.header_titulo}>
                     <a 
-                        href="https://infotec.psi.br/"
+                        href="/proj_info_equipe"
                         id="home">
                         <h1>CONHEÇA NOSSO TIME</h1>
                     </a>

@@ -9,3 +9,6 @@ Currently, two official plugins are available:
 
 # link da galeria             
 - https://postimg.cc/gallery/9yLxyMM
+
+# Técnicos que faltam
+# {"Marcelo", "Roberto", "Victor", "Paulo", "Ralmir". "Roberto"},
